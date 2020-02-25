@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Courier Location and Status</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='/main.css') }}">
+</head>
+<body>
+<form action="/details" method="POST">
+<div class="login" style="margin:auto;
+top: 50%; left: 50%;">
+<h1>Enter the courier package</h1>
+    <input type="text" class="login-field" value="" placeholder="courier" name="courier">
+<input type="submit" name="submit_button" value="Get Details" class="button">
+</div>
+</form>
+</body>
+</html>
