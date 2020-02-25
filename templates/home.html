@@ -1,18 +1,21 @@
 <html>
 <body>
+<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='/courier.css') }}">
 <header>
-	<title> COURIER TRACKING SYSTEM</title>
-	<h1>COURIER TRACKING SYSTEM</h1>
-	<h2> Hello, {{email}}</h2>
+	<title > COURIER TRACKING SYSTEM</title>
+	<h1 style="color:white";>COURIER TRACKING SYSTEM</h1>
+	<h2 style="color:white";> Hello, {{email}}</h2>
 </header>
-<link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='/main.css') }}">
+
 <form action="/home" method="POST">
 	<br>
 	<a href="imgvideos" style="color: white;">Links for sample images and videos </a> <br>
 	<br>
+	<div class="input">
 <input type="submit" name="submit_button" value="View visits"> <br>
 	<input type="submit" name="submit_button" value="Contact"> <br>
 	<input type="submit" name="submit_button" value="Log out">
+		</div>
 </form>
 </body>
 </html>
