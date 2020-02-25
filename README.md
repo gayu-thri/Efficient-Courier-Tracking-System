@@ -6,3 +6,7 @@ Create a web application using flask for Efficient Courier Tracking System.
 +	This page should have link to check the details which displays the location and status of the courier package. [2 marks] [CO3]
 +	Create a link for courier tracking system which has sample videos and images. [5 marks] [CO3]
 +	Clicking on contact it should display image map and finally logout. [6 marks] [CO4]
+
+```
+To use an image as a link, put the <img> tag inside the <a> tag
+```

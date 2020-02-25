@@ -66,6 +66,10 @@ def home_page():
 def contactexp():
     return render_template('contactexp.html')
 
+@app.route('/imgvideos',methods=["GET"])
+def imgvideos():
+    return render_template('imgvideos.html')
+
 @app.route('/visitors',methods = ["POST"])
 def visitors():
     if request.form['submit_button'] == 'For package details':
